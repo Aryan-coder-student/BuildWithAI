@@ -35,7 +35,7 @@ if 'initialized' not in st.session_state:
 def initialize_chatbot():
     """Initialize the chatbot with the PDF dataset"""
     try:
-        api_key = os.environ.get("GROQ_API_KEY")
+        api_key = st.secrets["GROQ_API_KEY"]
         llm = ChatGroq(temperature=0.8, model="llama-3.3-70b-specdec", api_key=api_key)
         persist_directory = "chroma_db"
         if not os.path.exists(persist_directory):
