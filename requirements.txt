@@ -10,4 +10,3 @@ opencv-python-headless
 langchain
 unstructured
 unstructured-inference
-pysqlite3
