@@ -6,4 +6,5 @@ langchain-huggingface
 langchain-community
 chroma
 huggingface-hub
+pillow
 unstructured[pdf]
