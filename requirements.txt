@@ -11,3 +11,4 @@ langchain
 unstructured
 unstructured-inference
 streamlit-chromadb-connection
+pysqlite3-binary
