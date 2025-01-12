@@ -9,7 +9,9 @@ from langchain.chains import create_retrieval_chain
 from langchain.vectorstores import Chroma
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.prompts import ChatPromptTemplate
-
+import sys
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Load environment variables
 load_dotenv()
 
