@@ -1,15 +1,28 @@
+# Core LangChain Libraries
 langchain
-streamlit
-python-dotenv
 langchain-groq
 langchain-huggingface
 langchain-community
+
+# Environment Management
+python-dotenv
+
+# HuggingFace for Embeddings
 huggingface-hub
+
+# Image Processing
 pillow
 opencv-python-headless
+pi-heif
+
+# PDF and Document Processing
+pytesseract
 unstructured
 unstructured-inference
+chromadb==0.3.29
+
+# SQLite3 for vector store compatibility
 pysqlite3-binary
-chromadb == 0.3.29
-pi-heif
-pytesseract
+
+# Streamlit for Web UI
+streamlit
