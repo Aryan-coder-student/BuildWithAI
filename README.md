@@ -25,8 +25,7 @@ The chatbot is currently trained on these seminal AI papers:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-papers-chatbot.git
-cd ai-papers-chatbot
+https://github.com/Aryan-coder-student/BuildWithAI.git
 ```
 
 2. Install required dependencies:
