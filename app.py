@@ -1,4 +1,5 @@
 import os
+import chromadb.config
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_groq import ChatGroq
