@@ -9,6 +9,5 @@ pillow
 opencv-python-headless
 unstructured
 unstructured-inference
-streamlit-chromadb-connection
 pysqlite3-binary
 chromadb
