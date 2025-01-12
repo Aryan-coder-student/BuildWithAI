@@ -12,4 +12,3 @@ unstructured-inference
 pysqlite3-binary
 chromadb == 0.3.29
 pi-heif
-libgl
