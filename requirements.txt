@@ -10,4 +10,4 @@ opencv-python-headless
 unstructured
 unstructured-inference
 pysqlite3-binary
-chromadb
+chromadb == 0.3.29
