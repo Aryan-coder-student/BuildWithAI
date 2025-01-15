@@ -20,7 +20,6 @@ nltk.download('punkt', download_dir=nltk_data_path)
 nltk.download('wordnet', download_dir=nltk_data_path)
 nltk.download('omw-1.4', download_dir=nltk_data_path)
 nltk.download('punkt_tab', download_dir=nltk_data_path)
-=
 nltk.data.path.append(nltk_data_path)
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
