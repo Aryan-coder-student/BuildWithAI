@@ -16,6 +16,8 @@ nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+nltk_data_path = os.path.join(os.getcwd(), "nltk_data")
+nltk.data.path.append(nltk_data_path)
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Load environment variables
