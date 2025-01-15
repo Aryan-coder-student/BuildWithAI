@@ -1,4 +1,5 @@
 import os
+import nltk
 import chromadb.config
 from dotenv import load_dotenv
 import streamlit as st
@@ -11,6 +12,9 @@ from langchain.vectorstores import Chroma
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.prompts import ChatPromptTemplate
 import sys
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Load environment variables
