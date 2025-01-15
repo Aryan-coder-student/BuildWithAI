@@ -1,5 +1,5 @@
 import os
-import nltk
+# import nltk
 import chromadb.config
 from dotenv import load_dotenv
 import streamlit as st
@@ -12,15 +12,15 @@ from langchain.vectorstores import Chroma
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.prompts import ChatPromptTemplate
 import sys
-nltk_data_path = os.path.join(os.getcwd(), "nltk_data")
-if not os.path.exists(nltk_data_path):
-    os.makedirs(nltk_data_path)
-nltk.data.path.append(nltk_data_path)
-nltk.download('punkt', download_dir=nltk_data_path)
-nltk.download('wordnet', download_dir=nltk_data_path)
-nltk.download('omw-1.4', download_dir=nltk_data_path)
-nltk.download('punkt_tab', download_dir=nltk_data_path)
-nltk.download('averaged_perceptron_tagger', download_dir=nltk_data_path)
+# nltk_data_path = os.path.join(os.getcwd(), "nltk_data")
+# if not os.path.exists(nltk_data_path):
+#     os.makedirs(nltk_data_path)
+# nltk.data.path.append(nltk_data_path)
+# nltk.download('punkt', download_dir=nltk_data_path)
+# nltk.download('wordnet', download_dir=nltk_data_path)
+# nltk.download('omw-1.4', download_dir=nltk_data_path)
+# nltk.download('punkt_tab', download_dir=nltk_data_path)
+# nltk.download('averaged_perceptron_tagger', download_dir=nltk_data_path)
 __import__('pysqlite3')
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Load environment variables
