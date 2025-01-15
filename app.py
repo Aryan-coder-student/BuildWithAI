@@ -12,6 +12,7 @@ from langchain.vectorstores import Chroma
 from langchain_community.document_loaders import DirectoryLoader
 from langchain.prompts import ChatPromptTemplate
 import sys
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
