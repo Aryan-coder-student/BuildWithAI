@@ -3,7 +3,7 @@ langchain
 langchain-groq
 langchain-huggingface
 langchain-community
-
+nltk
 # Environment Management
 python-dotenv
 
