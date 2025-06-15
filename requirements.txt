@@ -19,6 +19,7 @@ pi-heif
 pytesseract
 unstructured
 unstructured-pytesseract
+unstructured[pdf]
 unstructured-inference
 chromadb==0.3.29
 
